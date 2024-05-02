@@ -56,8 +56,7 @@ class ChatPerplexity(BaseChatModel):
 
             chat = ChatPerplexity(model="pplx-70b-online", temperature=0.7)
     """
-
-    client: Any  #: :meta very private:
+    client: Any  #: :meta private somewhat:
     model: str = "pplx-70b-online"
     """Model name."""
     temperature: float = 0.7
